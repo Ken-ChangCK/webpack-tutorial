@@ -1,0 +1,7 @@
+div {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./cat.jpeg");
+  color: #ffff;
+  font-size: 100px;
+}
