@@ -1,13 +1,16 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
   \***********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nError: You forgot to add 'mini-css-extract-plugin' plugin (i.e. `{ plugins: [new MiniCssExtractPlugin()] }`), please read https://github.com/webpack-contrib/mini-css-extract-plugin#getting-started\n    at Object.pitch (/Users/zhangzhekai/Documents/GitHub/webpack-tutorial/node_modules/mini-css-extract-plugin/dist/loader.js:51:14)");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ })
 
@@ -38,35 +41,6 @@ throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugi
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -80,15 +54,13 @@ throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugi
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 
@@ -111,9 +83,9 @@ var Test = function Test() {
 };
 
 var tt = new Test();
-console.log("tt.a", tt.a);
+console.log("source-map");
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.dc26f2c836eee3f9ab00.bundle.js.map
+//# sourceMappingURL=main.4d3bc6939cdad030eeac.bundle.js.map

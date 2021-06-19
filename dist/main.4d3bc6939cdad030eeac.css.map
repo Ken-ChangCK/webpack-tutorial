@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-tutorial/./src/index.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,aAAa;EACb,iDAAmC;EACnC,YAAY;EACZ,gBAAgB;AAClB","file":"main.4d3bc6939cdad030eeac.css","sourcesContent":["div {\n  width: 100%;\n  height: 100vh;\n  background-image: url(\"./cat.jpeg\");\n  color: #ffff;\n  font-size: 100px;\n}\n"],"sourceRoot":""}

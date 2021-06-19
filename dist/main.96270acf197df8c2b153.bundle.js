@@ -111,9 +111,9 @@ var Test = function Test() {
 };
 
 var tt = new Test();
-console.log("tt.a", tt.a);
+console.log("source-map");
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.8e04984a6e15b3b01648.bundle.js.map
+//# sourceMappingURL=main.96270acf197df8c2b153.bundle.js.map

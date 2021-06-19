@@ -14,4 +14,4 @@ class Test {
 
 const tt = new Test()
 
-console.log("tt.a", tt.a)
+console.log("source-map")
